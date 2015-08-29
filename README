@@ -1,6 +1,5 @@
 rpc port: 3563
 net port: 3893
-maximum coins: 100,000,000,000,000
+maximum coins: 25,000,000
 time between blocks: 3 min
-block reward: 100 million
-block halving rate: every 500k blocks
+block reward: 25 million
