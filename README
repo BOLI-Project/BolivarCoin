@@ -1,5 +1,8 @@
+Que es BolivarcCoin?
+----------------
+Es una cryptomoneda, descentralizada. 
+Tiene una emision de 25 millones de coins.
+Tiempo entre recompensa, 3 minutos.
+
 rpc port: 3563
 net port: 3893
-maximum coins: 25,000,000
-time between blocks: 3 min
-block reward: 25 million
