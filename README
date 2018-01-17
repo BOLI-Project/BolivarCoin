@@ -8,8 +8,8 @@ rpc port: 3563
 net port: 3893
 
 
-Procedimiento para instalar la Wallet en GNU/Linux
-__________________________________________________
+Procedimiento para instalar la Wallet en GNU/Linux con interfaz grafica
+-----------------------------------------------------------------------
 
 Escribir en la terminal los siguientes comandos:
 
@@ -20,3 +20,4 @@ Escribir en la terminal los siguientes comandos:
 	cd bolivarcoin
 	chmod +x Compilar.sh
 	./Compilar.sh
+	./Bolivarcoin-qt
