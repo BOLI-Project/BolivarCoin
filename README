@@ -6,3 +6,17 @@ Tiempo entre recompensa, 3 minutos.
 
 rpc port: 3563
 net port: 3893
+
+
+Procedimiento para instalar la Wallet en GNU/Linux
+__________________________________________________
+
+Escribir en la terminal los siguientes comandos:
+
+	sudo apt-get update
+	sudo apt-get upgrade
+	sudo apt-get install git
+	git clone https://github.com/ElpidioMC/bolivarcoin
+	cd bolivarcoin
+	chmod +x Compilar.sh
+	./Compilar.sh
