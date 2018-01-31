@@ -12,6 +12,34 @@ CONFIG += static
 
 QMAKE_LFLAGS += -no-pie
 
+win32 {
+    LIBS += -lshlwapi
+    LIBS += $$join(BOOST_LIB_PATH,,-L,) $$join(BDB_LIB_PATH,,-L,) $$join(OPENSSL_LIB_PATH,,-L,) $$join(QRENCODE_LIB_PATH,,-L,)
+    LIBS += -lssl -lcrypto -ldb_cxx$$BDB_LIB_SUFFIX -lcrypt32
+    LIBS += -lws2_32 -lole32 -loleaut32 -luuid -lgdi32
+    LIBS += -lboost_system-mgw49-mt-s-1_57 -lboost_filesystem-mgw49-mt-s-1_57 -lboost_program_options-mgw49-mt-s-1_57 -lboost_thread-mgw49-mt-s-1_57
+    LIBS += -L"C:/MinGW/msys/1.0/local/lib"
+    LIBS += -L"C:/deps/libcommuni/lib"
+
+    INCLUDEPATH += "C:/NinGW/msys/1.0/local/include"
+
+BOOST_LIB_SUFFIX=-mgw49-mt-s-1_57
+BOOST_INCLUDE_PATH=C:/deps/boost_1_57_0
+BOOST_LIB_PATH=C:/deps/boost_1_57_0/stage/lib
+BDB_INCLUDE_PATH=C:/deps/db-4.8.30.NC/build_unix
+BDB_LIB_PATH=C:/deps/db-4.8.30.NC/build_unix
+OPENSSL_INCLUDE_PATH=C:/deps/openssl-1.0.1l/include
+OPENSSL_LIB_PATH=C:/deps/openssl-1.0.1l
+MINIUPNPC_INCLUDE_PATH=C:/deps
+MINIUPNPC_LIB_PATH=C:/deps/miniupnpc
+LIBPNG_INCLUDE_PATH=C:/deps/libpng-1.6.34
+LIBPNG_LIB_PATH=C:/deps/libpng-1.6.34/.libs
+QRENCODE_INCLUDE_PATH=C:/deps/qrencode-3.4.4
+QRENCODE_LIB_PATH=C:/deps/qrencode-3.4.4/.libs
+LIBEVENT_INCLUDE_PATH=C:/deps/libevent-2.0.22/include
+LIBEVENT_LIB_PATH=C:/deps/libevent-2.0.22/.libs
+}
+
 # for boost 1.37, add -mt to the boost libraries
 # use: qmake BOOST_LIB_SUFFIX=-mt
 # for boost thread win32 with _win32 sufix
@@ -386,7 +414,7 @@ OTHER_FILES += README.md \
 # platform specific defaults, if not overridden on command line
 isEmpty(BOOST_LIB_SUFFIX) {
     macx:BOOST_LIB_SUFFIX = -mt
-    win32:BOOST_LIB_SUFFIX = -mgw44-mt-s-1_50
+    win32:BOOST_LIB_SUFFIX = -mgw44-mt-s-1_57
 }
 
 isEmpty(BOOST_THREAD_LIB_SUFFIX) {
