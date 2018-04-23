@@ -22,7 +22,7 @@ sudo apt-get upgrade
 sudo apt-get install git
 git clone https://github.com/ElpidioMC/bolivarcoin
 cd bolivarcoin
-chmod +x Compilar.sh
+chmod +x compilar.sh
 ./Compilar.sh
 ./Bolivarcoin-qt
 ```
