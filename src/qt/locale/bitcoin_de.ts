@@ -248,7 +248,7 @@ Dieses Produkt enthält Software, die vom OpenSSL-Projekt zur Verwendung im Open
     </message>
     <message>
         <location line="+1"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BolivarcoinS&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BOLICOINS&lt;/b&gt;!</source>
         <translation>Warnung: Wenn Sie Ihre Brieftasche verschlüsseln und Ihre Passphrase verlieren, werden Sie &lt;b&gt;alle Ihre Bolivarcoins verlieren&lt;/b&gt;!</translation>
     </message>
     <message>
@@ -2236,8 +2236,8 @@ Adresse: %4</translation>
     </message>
     <message>
         <location line="-28"/>
-        <source>Listen for connections on &lt;port&gt; (default: 3893 or testnet: 13893)</source>
-        <translation>&lt;port&gt; nach Verbindungen abhören (Standard: 3893 oder Testnetz: 13893)</translation>
+        <source>Listen for connections on &lt;port&gt; (default: 9348 or testnet: 19348)</source>
+        <translation>&lt;port&gt; nach Verbindungen abhören (Standard: 9348 oder Testnetz: 19348)</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -2271,8 +2271,8 @@ Adresse: %4</translation>
     </message>
     <message>
         <location line="+27"/>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 3563 or testnet: 13563)</source>
-        <translation>&lt;port&gt; nach JSON-RPC-Verbindungen abhören (Standard: 3563 oder Testnetz: 13563)</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 9347 or testnet: 19347)</source>
+        <translation>&lt;port&gt; nach JSON-RPC-Verbindungen abhören (Standard: 9347 oder Testnetz: 19347)</translation>
     </message>
     <message>
         <location line="+37"/>

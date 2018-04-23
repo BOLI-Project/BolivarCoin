@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.1" language="es">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="es" version="2.0">
+<defaultcodec>UTF-8</defaultcodec>
 <context>
     <name>AboutDialog</name>
     <message>
@@ -39,7 +38,7 @@ Eric Young (eay@cryptsoft.com) y el software UPnP escrito por Thomas Bernard.</t
     <message>
         <location line="+0"/>
         <source>The Bolivarcoin developers</source>
-        <translation type="unfinished">La comunidad de Bolivarcoin</translation>
+        <translation>Los programadores Bolivarcoin</translation>
     </message>
 </context>
 <context>
@@ -252,8 +251,8 @@ Eric Young (eay@cryptsoft.com) y el software UPnP escrito por Thomas Bernard.</t
     </message>
     <message>
         <location line="+1"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BolivarcoinS&lt;/b&gt;!</source>
-        <translation>Atencion: ¡Si cifra su monedero y pierde la contraseña perderá &lt;b&gt;TODOS SUS BolivarcoinS&lt;/b&gt;!&quot;</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BOLICOINS&lt;/b&gt;!</source>
+        <translation>Atencion: ¡Si cifra su monedero y pierde la contraseña perderá &lt;b&gt;TODOS SUS BOLICOINS&lt;/b&gt;!&quot;</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -546,10 +545,7 @@ Eric Young (eay@cryptsoft.com) y el software UPnP escrito por Thomas Bernard.</t
     <message numerus="yes">
         <location line="+141"/>
         <source>%n active connection(s) to Bolivarcoin network</source>
-        <translation>
-            <numerusform>%n conexión activa hacia la red Bolivarcoin</numerusform>
-            <numerusform>%n conexiones activas hacia la red Bolivarcoin</numerusform>
-        </translation>
+        <translation><numerusform>%n conexión activa hacia la red Bolivarcoin</numerusform><numerusform>%n conexiones activas hacia la red Bolivarcoin</numerusform></translation>
     </message>
     <message>
         <location line="+22"/>
@@ -569,26 +565,17 @@ Eric Young (eay@cryptsoft.com) y el software UPnP escrito por Thomas Bernard.</t
     <message numerus="yes">
         <location line="+20"/>
         <source>%n hour(s)</source>
-        <translation>
-            <numerusform>%n hora</numerusform>
-            <numerusform>%n horas</numerusform>
-        </translation>
+        <translation><numerusform>%n hora</numerusform><numerusform>%n horas</numerusform></translation>
     </message>
     <message numerus="yes">
         <location line="+4"/>
         <source>%n day(s)</source>
-        <translation>
-            <numerusform>%n día</numerusform>
-            <numerusform>%n días</numerusform>
-        </translation>
+        <translation><numerusform>%n día</numerusform><numerusform>%n días</numerusform></translation>
     </message>
     <message numerus="yes">
         <location line="+4"/>
         <source>%n week(s)</source>
-        <translation>
-            <numerusform>%n semana</numerusform>
-            <numerusform>%n semanas</numerusform>
-        </translation>
+        <translation><numerusform>%n semana</numerusform><numerusform>%n semanas</numerusform></translation>
     </message>
     <message>
         <location line="+4"/>
@@ -1704,10 +1691,7 @@ Dirección: %4
     <message numerus="yes">
         <location line="+7"/>
         <source>, broadcast through %n node(s)</source>
-        <translation>
-            <numerusform>, transmitir a través de %n nodo</numerusform>
-            <numerusform>, transmitir a través de %n nodos</numerusform>
-        </translation>
+        <translation><numerusform>, transmitir a través de %n nodo</numerusform><numerusform>, transmitir a través de %n nodos</numerusform></translation>
     </message>
     <message>
         <location line="+4"/>
@@ -1760,10 +1744,7 @@ Dirección: %4
     <message numerus="yes">
         <location line="-102"/>
         <source>matures in %n more block(s)</source>
-        <translation>
-            <numerusform>disponible en %n bloque más</numerusform>
-            <numerusform>disponible en %n bloques más</numerusform>
-        </translation>
+        <translation><numerusform>disponible en %n bloque más</numerusform><numerusform>disponible en %n bloques más</numerusform></translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1846,10 +1827,7 @@ Dirección: %4
     <message numerus="yes">
         <location line="-35"/>
         <source>Open for %n more block(s)</source>
-        <translation>
-            <numerusform>Abrir para %n bloque más</numerusform>
-            <numerusform>Abrir para %n bloques más</numerusform>
-        </translation>
+        <translation><numerusform>Abrir para %n bloque más</numerusform><numerusform>Abrir para %n bloques más</numerusform></translation>
     </message>
     <message>
         <location line="+70"/>
@@ -1895,10 +1873,7 @@ Dirección: %4
     <message numerus="yes">
         <location line="+57"/>
         <source>Open for %n more block(s)</source>
-        <translation>
-            <numerusform>Abrir para %n bloque más</numerusform>
-            <numerusform>Abrir para %n bloques más</numerusform>
-        </translation>
+        <translation><numerusform>Abrir para %n bloque más</numerusform><numerusform>Abrir para %n bloques más</numerusform></translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1923,10 +1898,7 @@ Dirección: %4
     <message numerus="yes">
         <location line="+8"/>
         <source>Mined balance will be available when it matures in %n more block(s)</source>
-        <translation>
-            <numerusform>El saldo recién minado estará disponible cuando venza el plazo en %n bloque más</numerusform>
-            <numerusform>El saldo recién minado estará disponible cuando venza el plazo en %n bloques más</numerusform>
-        </translation>
+        <translation><numerusform>El saldo recién minado estará disponible cuando venza el plazo en %n bloque más</numerusform><numerusform>El saldo recién minado estará disponible cuando venza el plazo en %n bloques más</numerusform></translation>
     </message>
     <message>
         <location line="+5"/>
@@ -2273,8 +2245,8 @@ Dirección: %4
     </message>
     <message>
         <location line="-28"/>
-        <source>Listen for connections on &lt;port&gt; (default: 3893 or testnet: 13893)</source>
-        <translation>Escuchar conexiones en &lt;puerto&gt; (predeterminado: 3893 o testnet: 13893)</translation>
+        <source>Listen for connections on &lt;port&gt; (default: 9348 or testnet: 19348)</source>
+        <translation>Escuchar conexiones en &lt;puerto&gt; (predeterminado: 9348 o testnet: 19348)</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -2308,8 +2280,8 @@ Dirección: %4
     </message>
     <message>
         <location line="+27"/>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 3563 or testnet: 13563)</source>
-        <translation>Escuchar conexiones JSON-RPC en &lt;puerto&gt; (predeterminado: 3563 o testnet:13563)</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 9347 or testnet: 19347)</source>
+        <translation>Escuchar conexiones JSON-RPC en &lt;puerto&gt; (predeterminado: 9347 o testnet:19347)</translation>
     </message>
     <message>
         <location line="+37"/>

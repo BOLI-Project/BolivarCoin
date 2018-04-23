@@ -248,8 +248,8 @@ Produktet indeholder software som er udviklet af OpenSSL Project til brug i Open
     </message>
     <message>
         <location line="+1"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BolivarcoinS&lt;/b&gt;!</source>
-        <translation>Advarsel: Hvis du krypterer din tegnebog og mister din adgangskode, vil du &lt;b&gt;MISTE ALLE DINE BolivarcoinS&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BOLICOINS&lt;/b&gt;!</source>
+        <translation>Advarsel: Hvis du krypterer din tegnebog og mister din adgangskode, vil du &lt;b&gt;MISTE ALLE DINE BOLICOINS&lt;/b&gt;!</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -2237,8 +2237,8 @@ Adresse: %4
     </message>
     <message>
         <location line="-28"/>
-        <source>Listen for connections on &lt;port&gt; (default: 3893 or testnet: 13893)</source>
-        <translation>Lyt til forbindelser på &lt;port&gt; (standard: 3893 eller testnetværk: 13893)</translation>
+        <source>Listen for connections on &lt;port&gt; (default: 9348 or testnet: 19348)</source>
+        <translation>Lyt til forbindelser på &lt;port&gt; (standard: 9348 eller testnetværk: 19348)</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -2272,8 +2272,8 @@ Adresse: %4
     </message>
     <message>
         <location line="+27"/>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 3563 or testnet: 13563)</source>
-        <translation>Lyt til JSON-RPC-forbindelser på &lt;port&gt; (standard: 3563 eller testnetværk: 13563)</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 9347 or testnet: 19347)</source>
+        <translation>Lyt til JSON-RPC-forbindelser på &lt;port&gt; (standard: 9347 eller testnetværk: 19347)</translation>
     </message>
     <message>
         <location line="+37"/>

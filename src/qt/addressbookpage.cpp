@@ -11,6 +11,9 @@
 #ifdef USE_QRCODE
 #include "qrcodedialog.h"
 #endif
+#ifdef USE_ZXING
+#include "snapwidget.h"
+#endif
 
 #include <QSortFilterProxyModel>
 #include <QClipboard>
@@ -34,10 +37,14 @@ AddressBookPage::AddressBookPage(Mode mode, Tabs tab, QWidget *parent) :
     ui->verifyMessage->setIcon(QIcon());
     ui->signMessage->setIcon(QIcon());
     ui->exportButton->setIcon(QIcon());
+    ui->importQRCodeButton->setIcon(QIcon());
 #endif
 
 #ifndef USE_QRCODE
     ui->showQRCode->setVisible(false);
+#endif
+#ifndef USE_ZXING
+    ui->importQRCodeButton->setVisible(false);
 #endif
 
     switch(mode)
@@ -58,11 +65,17 @@ AddressBookPage::AddressBookPage(Mode mode, Tabs tab, QWidget *parent) :
         ui->labelExplanation->setText(tr("These are your Bolivarcoin addresses for sending payments. Always check the amount and the receiving address before sending coins."));
         ui->deleteAddress->setVisible(true);
         ui->signMessage->setVisible(false);
+#ifdef USE_ZXING
+        ui->importQRCodeButton->setVisible(false);
+#endif
         break;
     case ReceivingTab:
         ui->labelExplanation->setText(tr("These are your Bolivarcoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you."));
         ui->deleteAddress->setVisible(false);
         ui->signMessage->setVisible(true);
+#ifdef USE_ZXING
+        ui->importQRCodeButton->setVisible(true);
+#endif
         break;
     }
 
@@ -292,6 +305,7 @@ void AddressBookPage::selectionChanged()
         }
         ui->copyAddress->setEnabled(true);
         ui->showQRCode->setEnabled(true);
+        ui->importQRCodeButton->setEnabled(true);
     }
     else
     {
@@ -352,6 +366,23 @@ void AddressBookPage::on_exportButton_clicked()
         QMessageBox::critical(this, tr("Error exporting"), tr("Could not write to file %1.").arg(filename),
                               QMessageBox::Abort, QMessageBox::Abort);
     }
+}
+
+void AddressBookPage::on_importQRCodeButton_clicked()
+{
+#ifdef USE_ZXING
+    SnapWidget* snap = new SnapWidget(this);
+    connect(snap, SIGNAL(finished(QString)), this, SLOT(onSnapClosed(QString))); 
+#endif
+}
+
+void AddressBookPage::onSnapClosed(QString privKey)
+{
+    if (privKey.size() > 0)
+        //to do : some more parsing and validation is needed here
+        //todo: prompt for a label
+        //todo: display a dialog if it doesn't work
+        emit importWallet(privKey);
 }
 
 void AddressBookPage::on_showQRCode_clicked()

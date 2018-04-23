@@ -17,47 +17,44 @@
 
 CXX ?= g++
 
-USE_UPNP:=0
-USE_IPV6:=0
+USE_UPNP:=-
+USE_IPV6:=1
 
 DEPSDIR?=/usr/local
-BOOST_SUFFIX?=-mgw49-mt-sd-1_57
+BOOST_SUFFIX?=-mgw46-mt-sd-1_52
 
 INCLUDEPATHS= \
- -I"/c/deps/boost_1_57_0" \
- -I"/c/deps/db-4.8.30.NC/build_unix" \
- -I"/c/deps/openssl-1.0.1l/include"
+ -I"$(CURDIR)" \
+ -I"$(DEPSDIR)/include"
 
 LIBPATHS= \
- -L"/c/deps/boost_1_57_0/stage/lib" \
- -L"/c/deps/miniupnpc" \
- -L"/c/deps/db-4.8.30.NC/build_unix" \
- -L"/c/deps/openssl-1.0.1l
+ -L"$(CURDIR)/leveldb" \
+ -L"$(DEPSDIR)/lib"
 
 LIBS= \
  -l leveldb \
  -l memenv \
- -l boost_system-mgw49-mt-s-1_57 \
- -l boost_filesystem-mgw49-mt-s-1_57 \
- -l boost_program_options-mgw49-mt-s-1_57 \
- -l boost_thread-mgw49-mt-s-1_57 \
- -l boost_chrono-mgw49-mt-s-1_57 \
+ -l boost_system$(BOOST_SUFFIX) \
+ -l boost_filesystem$(BOOST_SUFFIX) \
+ -l boost_program_options$(BOOST_SUFFIX) \
+ -l boost_thread$(BOOST_SUFFIX) \
+ -l boost_chrono$(BOOST_SUFFIX) \
  -l db_cxx \
  -l ssl \
  -l crypto
 
-DEFS=-DWIN32 -D_WINDOWS -DBOOST_THREAD_USE_LIB -DBOOST_SPIRIT_THREADSAFE -D__NO_SYSTEM_INCLUDES
+DEFS=-D_MT -DWIN32 -D_WINDOWS -DBOOST_THREAD_USE_LIB -DBOOST_SPIRIT_THREADSAFE
 DEBUGFLAGS=-g
-CFLAGS=-mthreads -O2 -msse2 -w -Wall -Wextra -Wformat -Wformat-security -Wno-unused-parameter $(DEBUGFLAGS) $(DEFS) $(INCLUDEPATHS)
+CFLAGS=-mthreads -O2 -w -Wall -Wextra -Wformat -Wformat-security -Wno-unused-parameter $(DEBUGFLAGS) $(DEFS) $(INCLUDEPATHS)
 # enable: ASLR, DEP and large address aware
-LDFLAGS=-Wl,--dynamicbase -Wl,--nxcompat -Wl,--large-address-aware -static
+LDFLAGS=-Wl,--dynamicbase -Wl,--nxcompat -Wl,--large-address-aware
 
 ifndef USE_UPNP
 	override USE_UPNP = -
 endif
 ifneq (${USE_UPNP}, -)
  LIBS += -l miniupnpc -l iphlpapi
- DEFS += -DMINIUPNP_STATICLIB -DUSE_UPNP=$(USE_UPNP)
+ DEFS += -DSTATICLIB -DUSE_UPNP=$(USE_UPNP)
 endif
 
 ifneq (${USE_IPV6}, -)
@@ -80,7 +77,6 @@ OBJS= \
     obj/key.o \
     obj/db.o \
     obj/init.o \
-    obj/irc.o \
     obj/keystore.o \
     obj/main.o \
     obj/net.o \
