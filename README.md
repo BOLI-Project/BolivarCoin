@@ -20,9 +20,16 @@ Escribir en la terminal los siguientes comandos:
 sudo apt-get update
 sudo apt-get upgrade
 sudo apt-get install git
-git clone https://github.com/ElpidioMC/bolivarcoin
-cd bolivarcoin
+git clone https://github.com/ElpidioMC/Bolivarcoin
+cd Bolivarcoin
+
+## Para Ubuntu 17.10 y anteriores.
 chmod +x compilar.sh
 ./Compilar.sh
+./Bolivarcoin-qt
+
+## Para Ubuntu 18.04 y superiores.
+chmod +x compilar.sh
+./Compilar_Ubuntu18.sh
 ./Bolivarcoin-qt
 ```
