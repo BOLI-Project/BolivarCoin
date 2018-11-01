@@ -24,12 +24,12 @@ git clone https://github.com/ElpidioMC/Bolivarcoin
 cd Bolivarcoin
 
 ## Para Ubuntu 17.10 y anteriores.
-chmod +x compilar.sh
+chmod +x Compilar.sh
 ./Compilar.sh
 ./Bolivarcoin-qt
 
 ## Para Ubuntu 18.04 y superiores.
-chmod +x compilar.sh
+chmod +x Compilar_Ubuntu18.sh
 ./Compilar_Ubuntu18.sh
 ./Bolivarcoin-qt
 ```
