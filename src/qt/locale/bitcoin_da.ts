@@ -1,5 +1,4 @@
 <?xml version="1.0" ?><!DOCTYPE TS><TS language="da" version="2.0">
-<defaultcodec>UTF-8</defaultcodec>
 <context>
     <name>AboutDialog</name>
     <message>
@@ -1407,8 +1406,8 @@ Adresse: %4
     </message>
     <message>
         <location line="+34"/>
-        <source>The address to send the payment to (e.g. H7QEPyCg1Yv3UZUALDha9bNYXuYbfMe9Lp)</source>
-        <translation>Bolivarcoin-adressen som betalingen skal sendes til (f.eks. H7QEPyCg1Yv3UZUALDha9bNYXuYbfMe9Lp)</translation>
+        <source>The address to send the payment to (e.g. bF7NsJpwBCQUb1wHNca2tLzGrcZfCBcbyF)</source>
+        <translation>Bolivarcoin-adressen som betalingen skal sendes til (f.eks. bF7NsJpwBCQUb1wHNca2tLzGrcZfCBcbyF)</translation>
     </message>
     <message>
         <location line="+60"/>
@@ -1448,8 +1447,8 @@ Adresse: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Bolivarcoin address (e.g. H7QEPyCg1Yv3UZUALDha9bNYXuYbfMe9Lp)</source>
-        <translation>Indtast en Bolivarcoin-adresse (f.eks. H7QEPyCg1Yv3UZUALDha9bNYXuYbfMe9Lp)</translation>
+        <source>Enter a Bolivarcoin address (e.g. bF7NsJpwBCQUb1wHNca2tLzGrcZfCBcbyF)</source>
+        <translation>Indtast en Bolivarcoin-adresse (f.eks. bF7NsJpwBCQUb1wHNca2tLzGrcZfCBcbyF)</translation>
     </message>
 </context>
 <context>
@@ -1471,8 +1470,8 @@ Adresse: %4
     </message>
     <message>
         <location line="+18"/>
-        <source>The address to sign the message with (e.g. H7QEPyCg1Yv3UZUALDha9bNYXuYbfMe9Lp)</source>
-        <translation>Bolivarcoin-adressen som beskeden skal underskrives med (f.eks. H7QEPyCg1Yv3UZUALDha9bNYXuYbfMe9Lp)</translation>
+        <source>The address to sign the message with (e.g. bF7NsJpwBCQUb1wHNca2tLzGrcZfCBcbyF)</source>
+        <translation>Bolivarcoin-adressen som beskeden skal underskrives med (f.eks. bF7NsJpwBCQUb1wHNca2tLzGrcZfCBcbyF)</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1544,8 +1543,8 @@ Adresse: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>The address the message was signed with (e.g. H7QEPyCg1Yv3UZUALDha9bNYXuYbfMe9Lp)</source>
-        <translation>Bolivarcoin-adressen som beskeden er underskrevet med (f.eks. H7QEPyCg1Yv3UZUALDha9bNYXuYbfMe9Lp)</translation>
+        <source>The address the message was signed with (e.g. bF7NsJpwBCQUb1wHNca2tLzGrcZfCBcbyF)</source>
+        <translation>Bolivarcoin-adressen som beskeden er underskrevet med (f.eks. bF7NsJpwBCQUb1wHNca2tLzGrcZfCBcbyF)</translation>
     </message>
     <message>
         <location line="+40"/>
@@ -1565,8 +1564,8 @@ Adresse: %4
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a Bolivarcoin address (e.g. H7QEPyCg1Yv3UZUALDha9bNYXuYbfMe9Lp)</source>
-        <translation>Indtast en Bolivarcoin-adresse (f.eks. H7QEPyCg1Yv3UZUALDha9bNYXuYbfMe9Lp)</translation>
+        <source>Enter a Bolivarcoin address (e.g. bF7NsJpwBCQUb1wHNca2tLzGrcZfCBcbyF)</source>
+        <translation>Indtast en Bolivarcoin-adresse (f.eks. bF7NsJpwBCQUb1wHNca2tLzGrcZfCBcbyF)</translation>
     </message>
     <message>
         <location line="-2"/>

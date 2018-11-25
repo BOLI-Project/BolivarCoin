@@ -111,6 +111,7 @@ private:
     QMovie *syncIconMovie;
     /** Keep track of previous number of blocks, to detect progress */
     int prevBlocks;
+    int spinnerFrame; 
 
     /** Create the main UI actions. */
     void createActions();

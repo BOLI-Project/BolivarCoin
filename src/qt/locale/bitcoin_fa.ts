@@ -1,5 +1,4 @@
 <?xml version="1.0" ?><!DOCTYPE TS><TS language="fa" version="2.0">
-<defaultcodec>UTF-8</defaultcodec>
 <context>
     <name>AboutDialog</name>
     <message>
@@ -1402,7 +1401,7 @@ Address: %4
     </message>
     <message>
         <location line="+34"/>
-        <source>The address to send the payment to (e.g. H7QEPyCg1Yv3UZUALDha9bNYXuYbfMe9Lp)</source>
+        <source>The address to send the payment to (e.g. bF7NsJpwBCQUb1wHNca2tLzGrcZfCBcbyF)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1443,8 +1442,8 @@ Address: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Bolivarcoin address (e.g. H7QEPyCg1Yv3UZUALDha9bNYXuYbfMe9Lp)</source>
-        <translation>آدرس بیتکویین وارد کنید  (bijvoorbeeld: H7QEPyCg1Yv3UZUALDha9bNYXuYbfMe9Lp)</translation>
+        <source>Enter a Bolivarcoin address (e.g. bF7NsJpwBCQUb1wHNca2tLzGrcZfCBcbyF)</source>
+        <translation>آدرس بیتکویین وارد کنید  (bijvoorbeeld: bF7NsJpwBCQUb1wHNca2tLzGrcZfCBcbyF)</translation>
     </message>
 </context>
 <context>
@@ -1466,8 +1465,8 @@ Address: %4
     </message>
     <message>
         <location line="+18"/>
-        <source>The address to sign the message with (e.g. H7QEPyCg1Yv3UZUALDha9bNYXuYbfMe9Lp)</source>
-        <translation>آدرس برای امضا کردن پیام با (برای مثال H7QEPyCg1Yv3UZUALDha9bNYXuYbfMe9Lp)</translation>
+        <source>The address to sign the message with (e.g. bF7NsJpwBCQUb1wHNca2tLzGrcZfCBcbyF)</source>
+        <translation>آدرس برای امضا کردن پیام با (برای مثال bF7NsJpwBCQUb1wHNca2tLzGrcZfCBcbyF)</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1539,8 +1538,8 @@ Address: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>The address the message was signed with (e.g. H7QEPyCg1Yv3UZUALDha9bNYXuYbfMe9Lp)</source>
-        <translation>آدرس برای امضا کردن پیام با (برای مثال H7QEPyCg1Yv3UZUALDha9bNYXuYbfMe9Lp)</translation>
+        <source>The address the message was signed with (e.g. bF7NsJpwBCQUb1wHNca2tLzGrcZfCBcbyF)</source>
+        <translation>آدرس برای امضا کردن پیام با (برای مثال bF7NsJpwBCQUb1wHNca2tLzGrcZfCBcbyF)</translation>
     </message>
     <message>
         <location line="+40"/>
@@ -1560,8 +1559,8 @@ Address: %4
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a Bolivarcoin address (e.g. H7QEPyCg1Yv3UZUALDha9bNYXuYbfMe9Lp)</source>
-        <translation>آدرس بیتکویین وارد کنید  (bijvoorbeeld: H7QEPyCg1Yv3UZUALDha9bNYXuYbfMe9Lp)</translation>
+        <source>Enter a Bolivarcoin address (e.g. bF7NsJpwBCQUb1wHNca2tLzGrcZfCBcbyF)</source>
+        <translation>آدرس بیتکویین وارد کنید  (bijvoorbeeld: bF7NsJpwBCQUb1wHNca2tLzGrcZfCBcbyF)</translation>
     </message>
     <message>
         <location line="-2"/>

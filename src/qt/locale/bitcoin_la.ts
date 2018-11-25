@@ -1,5 +1,4 @@
 <?xml version="1.0" ?><!DOCTYPE TS><TS language="la" version="2.0">
-<defaultcodec>UTF-8</defaultcodec>
 <context>
     <name>AboutDialog</name>
     <message>
@@ -1406,8 +1405,8 @@ Inscriptio: %4
     </message>
     <message>
         <location line="+34"/>
-        <source>The address to send the payment to (e.g. H7QEPyCg1Yv3UZUALDha9bNYXuYbfMe9Lp)</source>
-        <translation>Inscriptio cui mittere pensitationem (e.g. H7QEPyCg1Yv3UZUALDha9bNYXuYbfMe9Lp)</translation>
+        <source>The address to send the payment to (e.g. bF7NsJpwBCQUb1wHNca2tLzGrcZfCBcbyF)</source>
+        <translation>Inscriptio cui mittere pensitationem (e.g. bF7NsJpwBCQUb1wHNca2tLzGrcZfCBcbyF)</translation>
     </message>
     <message>
         <location line="+60"/>
@@ -1447,8 +1446,8 @@ Inscriptio: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Bolivarcoin address (e.g. H7QEPyCg1Yv3UZUALDha9bNYXuYbfMe9Lp)</source>
-        <translation>Insero inscriptionem Bolivarcoin (e.g. H7QEPyCg1Yv3UZUALDha9bNYXuYbfMe9Lp)</translation>
+        <source>Enter a Bolivarcoin address (e.g. bF7NsJpwBCQUb1wHNca2tLzGrcZfCBcbyF)</source>
+        <translation>Insero inscriptionem Bolivarcoin (e.g. bF7NsJpwBCQUb1wHNca2tLzGrcZfCBcbyF)</translation>
     </message>
 </context>
 <context>
@@ -1470,8 +1469,8 @@ Inscriptio: %4
     </message>
     <message>
         <location line="+18"/>
-        <source>The address to sign the message with (e.g. H7QEPyCg1Yv3UZUALDha9bNYXuYbfMe9Lp)</source>
-        <translation>Inscriptio qua signare nuntium (e.g. H7QEPyCg1Yv3UZUALDha9bNYXuYbfMe9Lp)</translation>
+        <source>The address to sign the message with (e.g. bF7NsJpwBCQUb1wHNca2tLzGrcZfCBcbyF)</source>
+        <translation>Inscriptio qua signare nuntium (e.g. bF7NsJpwBCQUb1wHNca2tLzGrcZfCBcbyF)</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1543,8 +1542,8 @@ Inscriptio: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>The address the message was signed with (e.g. H7QEPyCg1Yv3UZUALDha9bNYXuYbfMe9Lp)</source>
-        <translation>Inscriptio qua nuntius signatus est (e.g. H7QEPyCg1Yv3UZUALDha9bNYXuYbfMe9Lp)</translation>
+        <source>The address the message was signed with (e.g. bF7NsJpwBCQUb1wHNca2tLzGrcZfCBcbyF)</source>
+        <translation>Inscriptio qua nuntius signatus est (e.g. bF7NsJpwBCQUb1wHNca2tLzGrcZfCBcbyF)</translation>
     </message>
     <message>
         <location line="+40"/>
@@ -1564,8 +1563,8 @@ Inscriptio: %4
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a Bolivarcoin address (e.g. H7QEPyCg1Yv3UZUALDha9bNYXuYbfMe9Lp)</source>
-        <translation>Insere inscriptionem Bolivarcoin (e.g. H7QEPyCg1Yv3UZUALDha9bNYXuYbfMe9Lp)</translation>
+        <source>Enter a Bolivarcoin address (e.g. bF7NsJpwBCQUb1wHNca2tLzGrcZfCBcbyF)</source>
+        <translation>Insere inscriptionem Bolivarcoin (e.g. bF7NsJpwBCQUb1wHNca2tLzGrcZfCBcbyF)</translation>
     </message>
     <message>
         <location line="-2"/>

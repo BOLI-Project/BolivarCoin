@@ -1,5 +1,4 @@
 <?xml version="1.0" ?><!DOCTYPE TS><TS language="fr_CA" version="2.0">
-<defaultcodec>UTF-8</defaultcodec>
 <context>
     <name>AboutDialog</name>
     <message>
@@ -1403,7 +1402,7 @@ Address: %4
     </message>
     <message>
         <location line="+34"/>
-        <source>The address to send the payment to (e.g. H7QEPyCg1Yv3UZUALDha9bNYXuYbfMe9Lp)</source>
+        <source>The address to send the payment to (e.g. bF7NsJpwBCQUb1wHNca2tLzGrcZfCBcbyF)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1444,7 +1443,7 @@ Address: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Bolivarcoin address (e.g. H7QEPyCg1Yv3UZUALDha9bNYXuYbfMe9Lp)</source>
+        <source>Enter a Bolivarcoin address (e.g. bF7NsJpwBCQUb1wHNca2tLzGrcZfCBcbyF)</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -1467,7 +1466,7 @@ Address: %4
     </message>
     <message>
         <location line="+18"/>
-        <source>The address to sign the message with (e.g. H7QEPyCg1Yv3UZUALDha9bNYXuYbfMe9Lp)</source>
+        <source>The address to sign the message with (e.g. bF7NsJpwBCQUb1wHNca2tLzGrcZfCBcbyF)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1540,7 +1539,7 @@ Address: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>The address the message was signed with (e.g. H7QEPyCg1Yv3UZUALDha9bNYXuYbfMe9Lp)</source>
+        <source>The address the message was signed with (e.g. bF7NsJpwBCQUb1wHNca2tLzGrcZfCBcbyF)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1561,7 +1560,7 @@ Address: %4
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a Bolivarcoin address (e.g. H7QEPyCg1Yv3UZUALDha9bNYXuYbfMe9Lp)</source>
+        <source>Enter a Bolivarcoin address (e.g. bF7NsJpwBCQUb1wHNca2tLzGrcZfCBcbyF)</source>
         <translation type="unfinished"/>
     </message>
     <message>

@@ -1,7 +1,7 @@
 ¿Qué es Bolivarcoin? 
 ===============================
-Bolivarcoin es una Criptomoneda que nació en el año 2015. 
-Creada bajo el mando de Satoshisimon Bolivarmoto. 
+Bolivarcoin es una Criptomoneda que nació en el año 2015.
+Creada bajo el mando de Satoshisimon Bolivarmoto.
 Ésta está basada en la cultura Bitcoin, orientada a mantener el anónimato, la velocidad de transacciones y la libertad financiera.
 
 Especificaciones técnicas:

@@ -68,6 +68,12 @@ namespace boost {
 
 using namespace std;
 
+static const char alphanum[] =
+      "0123456789"
+      "!@#$%^&*()_+<>?=-~"
+      "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+      "abcdefghijklmnopqrstuvwxyz";
+
 map<string, string> mapArgs;
 map<string, vector<string> > mapMultiArgs;
 bool fDebug = false;
@@ -1101,12 +1107,39 @@ boost::filesystem::path GetConfigFile()
 void ReadConfigFile(map<string, string>& mapSettingsRet,
                     map<string, vector<string> >& mapMultiSettingsRet)
 {
-    boost::filesystem::ifstream streamConfig(GetConfigFile());
-    if (!streamConfig.good())
-        return; // No bitcoin.conf file is OK
+        boost::filesystem::ifstream streamConfig(GetConfigFile());
+        if (!streamConfig.good())
+        {
+            boost::filesystem::path ConfPath;
+                   ConfPath = GetDefaultDataDir() / "Bolivarcoin.conf";
+                   FILE* ConfFile = fopen(ConfPath.string().c_str(), "w");
+                   fprintf(ConfFile, "listen=1\n");
+                   fprintf(ConfFile, "server=1\n");
+                   fprintf(ConfFile, "maxconnections=50\n");
+                   fprintf(ConfFile, "rpcuser=yourusername\n");
 
-    // clear path cache after loading config file
-    fCachedPath[0] = fCachedPath[1] = false;
+                   char s[26];
+                   for (int i = 0; i < 26; ++i)
+                   {
+                       s[i] = alphanum[rand() % (sizeof(alphanum) - 1)];
+                   }
+
+                   std::string str(s);
+                   std::string rpcpass = "rpcpassword=" + str + "\n";
+                   fprintf(ConfFile, rpcpass.c_str());
+                   fprintf(ConfFile, "port=3893\n");
+                   fprintf(ConfFile, "rpcport=3563\n");
+                   fprintf(ConfFile, "rpcconnect=127.0.0.1\n");
+                   fprintf(ConfFile, "addnode=159.65.203.140:3893\n");
+                   fprintf(ConfFile, "addnode=128.199.229.71:3893\n");
+                   fprintf(ConfFile, "addnode=107.170.233.106:3893\n");
+
+
+                   fclose(ConfFile);
+                   // Returns our config path, created config file is NOT loaded first time...
+                   // Wallet will need to be reloaded before config file is properly read...
+            return ;
+        }
 
     set<string> setOptions;
     setOptions.insert("*");
