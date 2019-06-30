@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Bolivarcoin
+Comment=Bolivarcoin P2P Cryptocurrency
+Exec=bolivarcoin-qt %u
+Terminal=false
+Type=Application
+Icon=bolivarcoin128
+MimeType=x-scheme-handler/bolivarcoin;
+Categories=Office;Finance;
+Name[es]=bolivarcoin-qt.desktop
