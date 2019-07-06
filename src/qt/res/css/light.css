@@ -34,13 +34,13 @@ color:#000;
 }
 
 QMenuBar::item:selected {
-background-color:#fff;
+background-color:#f8f6f6;
 color:#000;
 
 }
 
 QMenu {
-background-color:#fff;
+background-color:#f8f6f6;
 }
 
 QMenu::item {
@@ -48,7 +48,7 @@ color:#000;
 }
 
 QMenu::item:selected {
-background-color:#fff;
+background-color:#f2f0f0;
 color:#000;
 }
 
@@ -220,7 +220,7 @@ color:#000;
 }
 
 QComboBox:checked {
-background-color:transparent;
+background:#f2f2f2;
 }
 
 QComboBox:editable {
@@ -471,7 +471,7 @@ font-family:"Overpass Mono";
 }
 
 QTableView::item:selected { /* Table Item Selected */
-background-color:#fff;
+background-color:#f0f0f0;
 color:#000;
 
 }
@@ -1692,11 +1692,13 @@ QDialog#CoinControlDialog .CoinControlTreeWidget#treeWidget::item {
 }
 
 QDialog#CoinControlDialog .CoinControlTreeWidget#treeWidget::item:selected { /* Coin Control Item (selected) */
-background-color:#555;
+background-color:#f7f7f7;
+color:#333;
 }
 
 QDialog#CoinControlDialog .CoinControlTreeWidget#treeWidget::item:checked { /* Coin Control Item (checked) */
-background-color:#555;
+background-color:#f7f7f7;
+color:#333;
 }
 
 QDialog#CoinControlDialog .CoinControlTreeWidget#treeWidget::branch { /* Coin Control Branch Icon */

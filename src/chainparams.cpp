@@ -68,11 +68,11 @@ public:
         consensus.nMasternodePaymentsIncreasePeriod = -1; //
         consensus.nInstantSendKeepLock = 24;
         consensus.nBudgetPaymentsStartBlock = 600000; // 
-        consensus.nBudgetPaymentsCycleBlocks = 600000; // 
-        consensus.nBudgetPaymentsWindowBlocks = 10;
+        consensus.nBudgetPaymentsCycleBlocks = 16616; // 
+        consensus.nBudgetPaymentsWindowBlocks = 100;
         consensus.nBudgetProposalEstablishingTime = 60*60*24;
         consensus.nSuperblockStartBlock = 601000; // Approx 1 year
-        consensus.nSuperblockCycle = 10950; // ~(60*24*30)/2
+        consensus.nSuperblockCycle = 16616; // ~(60*24*30)/2
         consensus.nGovernanceMinQuorum = 10;
         consensus.nGovernanceFilterElements = 20000;
         consensus.nMasternodeMinimumConfirmations = 15;
@@ -89,8 +89,8 @@ public:
         consensus.fPowNoRetargeting = false;
         consensus.nPowKGWHeight = 1;
         consensus.nPowDGWHeight = 520000;
-        consensus.nRuleChangeActivationThreshold = 114; // 95% of 120
-        consensus.nMinerConfirmationWindow = 120; // nPowTargetTimespan / nPowTargetSpacing * 4
+        consensus.nRuleChangeActivationThreshold = 1916; // 95% of 2016
+        consensus.nMinerConfirmationWindow = 2016; // nPowTargetTimespan / nPowTargetSpacing * 4
         consensus.vDeployments[Consensus::DEPLOYMENT_TESTDUMMY].bit = 28;
         consensus.vDeployments[Consensus::DEPLOYMENT_TESTDUMMY].nStartTime = 1199145601; // January 1, 2008
         consensus.vDeployments[Consensus::DEPLOYMENT_TESTDUMMY].nTimeout = 1230767999; // December 31, 2008
@@ -108,10 +108,10 @@ public:
         consensus.vDeployments[Consensus::DEPLOYMENT_DIP0001].nThreshold = 3226; // 80% of 4032
 
         // The best chain should have at least this much work.
-        consensus.nMinimumChainWork = uint256S("0x00000000000000000000000000000000000000000000000000000000000fffff"); // 0
+        consensus.nMinimumChainWork = uint256S("0x0000000000000000000000000000000000000000000000021e53d479c7b3c54b"); // 520000
 
         // By default assume that the signatures in ancestors of this block are valid.
-        consensus.defaultAssumeValid = uint256S("0x00000e4fc293a1912b9d73cbb8d8f7270007a7d84382f1370661e65d5d57b1f6"); // 0
+        consensus.defaultAssumeValid = uint256S("0x00000000000cdc2525f9bb7bc0edec4ad88798779f7208998d7171b940eb9a6a"); // 520000
 
         /**
          * The message start string is designed to be unlikely to occur in normal data.

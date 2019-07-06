@@ -156,9 +156,8 @@ your funds will already be anonymized. No additional waiting is required.</li> \
 <b>IMPORTANT:</b> Your wallet only contains 1000 of these \"change addresses.\" Every time a mixing event happens, up to 9 of your addresses are used up. \
 This means those 1000 addresses last for about 100 mixing events. When 900 of them are used, your wallet must create more addresses. \
 It can only do this, however, if you have automatic backups enabled.<br> \
-Consequently, users who have backups disabled will also have PrivateSend disabled. <hr>\
-\
-        "));
+Consequently, users who have backups disabled will also have PrivateSend disabled. <hr>"
+        ));
         ui->aboutMessage->setWordWrap(true);
         ui->helpMessage->setVisible(false);
         ui->aboutLogo->setVisible(false);
