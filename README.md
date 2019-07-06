@@ -33,7 +33,7 @@ Creada bajo el mando de Satoshisimon Bolivarmoto.
 
 * **Pagina Web:** [bolis.info](http://bolis.info/)
 * **Twitter:** [BolivarCoin_XT](https://twitter.com/BolivarCoin_XT)
-* **Facebook:** [BolivarcoinAPP:](https://www.facebook.com/BolivarcoinAPP/)
+* **Facebook:** [BolivarcoinAPP](https://www.facebook.com/BolivarcoinAPP/)
 * **Grupo Facebook:** [‎Bsd Bolivar digital Bolivarcoin Group](https://www.facebook.com/groups/129493067606558/)
 * **Telegram:** [Español](https://t.me/bolivarcoinoficial)
 * **Telegram:** [English](https://t.me/bolivarcoinEnglish)

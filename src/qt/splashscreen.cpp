@@ -43,7 +43,7 @@ SplashScreen::SplashScreen(Qt::WindowFlags f, const NetworkStyle *networkStyle) 
 
     // define text to place
     QString titleText       = tr("Bolivarcoin Core");
-    QString versionText     = QString(tr("Version 2.0.0"));
+    QString versionText     = QString(tr("Version %1").arg(PACKAGE_VERSION));
     QString copyrightTextBtc   = QChar(0xA9)+QString(" 2009-%1 ").arg(COPYRIGHT_YEAR) + QString(tr("The Bitcoin Core developers"));
     QString copyrightTextBolivarcoin   = QChar(0xA9)+QString(" 2018-%1 ").arg(COPYRIGHT_YEAR) + QString(tr("The Bolivarcoin Core developers"));
     QString titleAddText    = networkStyle->getTitleAddText();
