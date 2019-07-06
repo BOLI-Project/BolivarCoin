@@ -31,9 +31,9 @@ Creada bajo el mando de Satoshisimon Bolivarmoto.
 
 ### Enlaces de interés
 
-* **Pagina Web:** [Pagina Web::](http://bolis.info/)
-* **Twitter:** [Twitter:](https://twitter.com/BolivarCoin_XT)
-* **Facebook:** [Facebook:](https://www.facebook.com/BolivarcoinAPP/)
-* **Grupo Facebook:** [Grupo Facebook:](https://www.facebook.com/groups/129493067606558/)
-* **Grupo Telegram Español:** [Grupo Telegram Español:](https://t.me/bolivarcoinoficial)
-* **Telegram Group English:** [Telegram Group English:](https://t.me/bolivarcoinEnglish)
+* **Pagina Web:** [bolis.info](http://bolis.info/)
+* **Twitter:** [BolivarCoin_XT](https://twitter.com/BolivarCoin_XT)
+* **Facebook:** [BolivarcoinAPP:](https://www.facebook.com/BolivarcoinAPP/)
+* **Grupo Facebook:** [‎Bsd Bolivar digital Bolivarcoin Group](https://www.facebook.com/groups/129493067606558/)
+* **Telegram:** [Español](https://t.me/bolivarcoinoficial)
+* **Telegram:** [English](https://t.me/bolivarcoinEnglish)
