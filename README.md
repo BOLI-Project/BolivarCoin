@@ -37,3 +37,18 @@ Creada bajo el mando de Satoshisimon Bolivarmoto.
 * **Grupo Facebook:** [‎Bsd Bolivar digital Bolivarcoin Group](https://www.facebook.com/groups/129493067606558/)
 * **Telegram:** [Español](https://t.me/bolivarcoinoficial)
 * **Telegram:** [English](https://t.me/bolivarcoinEnglish)
+
+### Compilar en Ubuntu 16.04 o 18.04
+
+Escribir en la terminal los siguientes comandos:
+
+```bash
+sudo apt-get install git
+git clone https://github.com/BOLI-Project/BolivarCoin
+cd BolivarCoin
+./Compile.sh
+```
+
+### Crear un Masternodo
+
+Para crear un masternodo por favor siga esta [guía](https://github.com/BOLI-Project/BolivarCoin/blob/master/Crear_Masternodo.md).
