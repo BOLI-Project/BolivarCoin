@@ -91,7 +91,7 @@ createMN() {
     PORT=3893
     mkdir $CONF_DIR
     echo ""
-    echo "Enter masternode private key for node $ALIAS"
+    echo "Please enter masternode private key $ALIAS"
     read PRIVKEY
     echo "rpcuser=$USER" >> $CONF_DIR/$CONF_FILE
     echo "rpcpassword=$PASS" >> $CONF_DIR/$CONF_FILE
