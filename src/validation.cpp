@@ -1236,6 +1236,18 @@ CAmount GetBlockSubsidy(int nPrevBits, int nPrevHeight, const Consensus::Params&
     // LogPrintf("height %u diff %4.2f reward %d\n", nPrevHeight, dDiff, nSubsidyBase);
     CAmount nSubsidy = nSubsidyBase * COIN;
 
+    if (nPrevHeight < 500000) {
+        nSubsidy = 25 * COIN;
+    } else if (nPrevHeight < 1000000) {
+        nSubsidy = 12.5 * COIN;
+    } else if (nPrevHeight < 1500000) {
+        nSubsidy = 6.25 * COIN;
+    } else if (nPrevHeight < 2000000) {
+        nSubsidy = 3.125 * COIN;
+    } else {
+        nSubsidy = 1.5625 * COIN;
+    }
+
     // Hard fork to reduce the block reward by 10 extra percent (allowing budget/superblocks)
     CAmount nSuperblockPart = (nPrevHeight > consensusParams.nBudgetPaymentsStartBlock) ? nSubsidy/10 : 0;
 
