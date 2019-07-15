@@ -50,7 +50,7 @@
       <item>
        <widget class="QWidget" name="contentWidget" native="true">
         <property name="styleSheet">
-         <string notr="true"/>
+         <string notr="true">#contentWidget { background: white; border-radius: 6px; }</string>
         </property>
         <layout class="QVBoxLayout" name="verticalLayoutSub" stretch="1,0,0,0,0">
          <property name="spacing">
