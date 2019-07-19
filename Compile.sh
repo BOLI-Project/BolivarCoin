@@ -104,7 +104,7 @@ createMN() {
     echo "masternode=1" >> $CONF_DIR/$CONF_FILE
     echo "masternodeaddr=$IP:$PORT" >> $CONF_DIR/$CONF_FILE
     echo "masternodeprivkey=$PRIVKEY" >> $CONF_DIR/$CONF_FILE
-    bolivarcoind
+    ./bolivarcoind
 }
 
 PS3='Please enter your choice: '
