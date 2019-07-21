@@ -167,7 +167,9 @@ public:
             ( 300000, uint256S("0x000000000037f27f5e9a06dfda479ea4452f2b5cd49a5a781883b6b40efab3da"))
             ( 400000, uint256S("0x0000000000001df9ae46d1be27b21b89a02c960ec31e90b730d49678e06d3e12"))
             ( 500000, uint256S("0x000000000000b9dfa8f44b5a56041a6b4d3370a61f3074f18f9eab5675f3ce9f"))
-            ( 564719, uint256S("0x000000000001518bf8d58cba04c27963d41f4924f187d07db00285249eef1ab6")),
+            ( 564719, uint256S("0x000000000001518bf8d58cba04c27963d41f4924f187d07db00285249eef1ab6"))
+            ( 570000, uint256S("0x0000000000059e377c644185684a8c34c5860afff9c416f5414877c7f2f2411a"))
+            ( 580158, uint256S("0x000000000003dc7702445011c779f84e097b0dd3526742ab9968c07f13f45f94")),
             1559330393, // * UNIX timestamp of last known number of transactions
             1,    // * total number of transactions between genesis and that timestamp
                         //   (the tx=... number in the SetBestChain debug.log lines)
