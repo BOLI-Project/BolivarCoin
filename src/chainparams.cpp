@@ -169,6 +169,7 @@ public:
             ( 500000, uint256S("0x000000000000b9dfa8f44b5a56041a6b4d3370a61f3074f18f9eab5675f3ce9f"))
             ( 564719, uint256S("0x000000000001518bf8d58cba04c27963d41f4924f187d07db00285249eef1ab6"))
             ( 570000, uint256S("0x0000000000059e377c644185684a8c34c5860afff9c416f5414877c7f2f2411a"))
+            ( 575000, uint256S("0x000000000001f7b984526ead4221093e3bac4dacb5ef7c6132cae67fc8083956"))
             ( 580158, uint256S("0x000000000003dc7702445011c779f84e097b0dd3526742ab9968c07f13f45f94")),
             1559330393, // * UNIX timestamp of last known number of transactions
             1,    // * total number of transactions between genesis and that timestamp
