@@ -40,7 +40,7 @@ chmod +x Compile.sh
 8. Cuando el script le muestre "Please enter masternode private key" por favor escriba la **llave privada de su Masternodo**.
 
 
-9. Vuelva a su Billetera BolivarCoin Core (en su computadora personal), entre en la Consola de Depuración y escriba:
+9. Esperar de 15 minutos a 30 minutos que el nodo este sincronizado y vuelva a su Billetera BolivarCoin Core (en su computadora personal), entre en la Consola de Depuración y escriba:
 
 
 ```masternode outputs``` - Guarde los datos generados en un lugar seguro.
