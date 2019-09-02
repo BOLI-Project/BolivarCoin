@@ -6,7 +6,7 @@ installAptLibsQt() {
     sudo apt-get -y update
     sudo apt-get -y upgrade
     sudo apt-get -y install  \
-      qt5-default qt5-qmake qtbase5-dev-tools qttools5-dev-tools software-properties-common build-essential \
+      qt5-default qt5-qmake qtbase5-dev-tools qttools5-dev-tools libprotobuf-dev protobuf-compiler software-properties-common build-essential \
       libssl-dev libdb++-dev libboost-all-dev libqrencode-dev qrencode libminiupnpc-dev automake autoconf libzmq3-dev \
       git pkg-config libcurl4-openssl-dev libjansson-dev libgmp-dev make g++ gcc libevent-dev libtool autotools-dev
 }
