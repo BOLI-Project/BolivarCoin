@@ -40,7 +40,7 @@ checkSystem() {
 
 installMN16() {
     wget https://github.com/BOLI-Project/BolivarCoin/releases/download/v2.0.0.2/BolivarCoinDaemonUbuntu1604.tar.gz
-    tar -xzf BolivarCoinUbuntu1604.tar.gz
+    tar -xzf BolivarCoinDaemonUbuntu1604.tar.gz
     cd DaemonsLinuxBOLI
     chmod 755 bolivarcoind
     chmod 755 bolivarcoin-cli
@@ -52,7 +52,7 @@ installMN16() {
 
 installMN18() {
     wget https://github.com/BOLI-Project/BolivarCoin/releases/download/v2.0.0.2/BolivarCoinDaemonUbuntu1804.tar.gz
-    tar -xzf BolivarCoinUbuntu1804.tar.gz
+    tar -xzf BolivarCoinDaemonUbuntu1804.tar.gz
     cd DaemonsLinuxBOLI
     chmod 755 bolivarcoind
     chmod 755 bolivarcoin-cli
