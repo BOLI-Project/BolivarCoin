@@ -1,1 +1,0 @@
-Moved to https://github.com/BOLI-Project/BolivarCoin
