@@ -1,0 +1,6 @@
+usr/local/bin/bolivarcoin-qt usr/bin
+share/pixmaps/bolivarcoin32.xpm usr/share/pixmaps
+share/pixmaps/bolivarcoin16.xpm usr/share/pixmaps
+share/pixmaps/bolivarcoin128.png usr/share/pixmaps
+debian/bolivarcoin-qt.desktop usr/share/applications
+debian/bolivarcoin-qt.protocol usr/share/kde4/services/
