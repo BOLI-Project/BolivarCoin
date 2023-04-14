@@ -38,7 +38,7 @@ Creada bajo el mando de Satoshisimon Bolivarmoto.
 * **Telegram:** [Español](https://t.me/bolivarcoinoficial)
 * **Telegram:** [English](https://t.me/bolivarcoinEnglish)
 
-### Compilar en Ubuntu 16.04 o 18.04
+### Instalar en Ubuntu
 
 Escribir en la terminal los siguientes comandos:
 
@@ -46,7 +46,7 @@ Escribir en la terminal los siguientes comandos:
 sudo apt-get install git
 git clone https://github.com/BOLI-Project/BolivarCoin
 cd BolivarCoin
-./Compile.sh
+./compile.sh
 ```
 
 ### Crear un Masternodo
