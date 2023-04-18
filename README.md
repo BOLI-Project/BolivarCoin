@@ -43,9 +43,8 @@ Creada bajo el mando de Satoshisimon Bolivarmoto.
 Escribir en la terminal los siguientes comandos:
 
 ```bash
-sudo apt-get install git
-git clone https://github.com/BOLI-Project/BolivarCoin
-cd BolivarCoin
+wget https://raw.githubusercontent.com/BOLI-Project/BolivarCoin/master/compile.sh
+chmod +x compile.sh
 ./compile.sh
 ```
 
