@@ -43,7 +43,7 @@ Creada bajo el mando de Satoshisimon Bolivarmoto.
 Escribir en la terminal los siguientes comandos:
 
 ```bash
-wget https://raw.githubusercontent.com/BOLI-Project/BolivarCoin/master/compile.sh
+wget https://raw.githubusercontent.com/BOLI-Project/BolivarCoin/master/install.sh
 chmod +x compile.sh
 ./compile.sh
 ```
